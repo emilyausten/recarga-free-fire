@@ -314,8 +314,7 @@
                     name: nomeCompleto,
                     email: email,
                     cpf: cpf.replace(/\D/g, '') // Remove caracteres não numéricos
-                },
-                postbackUrl: "https://recarga-jogos.onl/webhook.php"
+                }
             };
             
             // Mostrar loading
@@ -324,58 +323,9 @@
             // Log dos dados que serão enviados
             console.log('Dados para API:', apiData);
             
-            // TEMPORÁRIO: Simular resposta da API para teste
-            // Remover este bloco quando a API estiver funcionando
-            setTimeout(() => {
-                const mockResponse = {
-                    status: 'success',
-                    status_transaction: 'WAITING_FOR_APPROVAL',
-                    message: 'ok',
-                    client_id: 'e3f8ad47-3cb7-4129-9fad-bh891c42c493',
-                    paymentCode: '00020126860014br.gov.bcb.pix2563pix.bankn.com.br/qr/v3/at/fa68393e-d775-415a-9336-244c020194605204000053039865802BR5925PAGPIX_SOLUCAO_EM_PAGAMEN6014SAO_BERNARDO_D62070503***630426F7',
-                    idTransaction: '28564976-75v5-427c-a693-5e89e8849b76',
-                    paymentCodeBase64: 'MDAwMjAxMjY4NTAwMTRicdafd34afq3mNvbS5ici9xci92My9hdC9mYTY4MzkzZS1kMjc1LTQxNWEtOTIyNi0yNDRjMDIwMTk0NjA1MjA0MDAwMDUzMDM5ODY1ODAyQlI1OTI1UEFHUElYX1NPTFVDQU9fRU1fUEFHQU1FTjYwMTRTQU9fQkVSTkFSRE9fRDYyMDcwNTAzKioqNjMwNDI2Rjc=',
-                    urlWebHook: 'https://recarga-jogos.onl/webhook.php'
-                };
-                
-                console.log('Resposta simulada da API:', mockResponse);
-                
-                if (mockResponse.status === 'success' && mockResponse.paymentCode) {
-                    // Gerar QR Code
-                    generateQRCode(mockResponse.paymentCode);
-                    
-                    // Preencher código PIX
-                    $('#codigo-pix').val(mockResponse.paymentCode);
-                    
-                    // Mostrar seção PIX
-                    $('#dados-pix').show();
-                    
-                    // Esconder formulário de dados
-                    $('.dados-pessoais').hide();
-                    $('.resumo-compra').hide();
-                    $('.metodos-pagamento').hide();
-                    
-                    // Atualizar botão
-                    $('#btn-finalizar').prop('disabled', true).html('<i class="fa-solid fa-check"></i> PIX Gerado');
-                    
-                    // Salvar dados da transação
-                    localStorage.setItem('pixTransaction', JSON.stringify({
-                        idTransaction: mockResponse.idTransaction,
-                        paymentCode: mockResponse.paymentCode,
-                        amount: total
-                    }));
-                    
-                } else {
-                    console.error('Resposta inválida da API:', mockResponse);
-                    alert('Erro ao gerar PIX: ' + (mockResponse.message || 'Resposta inválida da API'));
-                    $('#btn-finalizar').prop('disabled', false).html('<i class="fa-solid fa-lock"></i> Finalizar Pagamento');
-                }
-            }, 2000);
-            
-            /* 
-            // CÓDIGO ORIGINAL DA API - DESCOMENTAR QUANDO A API ESTIVER FUNCIONANDO
+            // Chamada real para função serverless na Vercel
             $.ajax({
-                url: 'gerar-pix.php',
+                url: '/api/gerar-pix',
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -440,7 +390,6 @@
                     $('#btn-finalizar').prop('disabled', false).html('<i class="fa-solid fa-lock"></i> Finalizar Pagamento');
                 }
             });
-            */
         });
         
         // Botão copiar código PIX

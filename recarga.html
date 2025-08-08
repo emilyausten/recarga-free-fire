@@ -50,7 +50,7 @@
                     <img src="public/images/icon.png" alt="Player Avatar" class="header-avatar">
                     <span id="user-id" style="margin-left: 10px; color: white; font-weight: bold;"></span>
                     <button type="button" id="btn-logout" class="btn btn-sm btn-outline-light ml-2" style="margin-left: 10px; display: none;">Sair</button>
-                </div>
+                                    </div>
             </div>
         </div>
     </header>
@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="login-area" id="login-section">
-                <div class="title-section">
+                                <div class="title-section">
                     <span>1</span>
                     <h2>Login</h2>
                 </div>
@@ -159,10 +159,10 @@
                        <a href="javascript:void(0)" id="btn-logout-conta" class="btn-logout">
                            <i class="fa-solid fa-arrow-right-arrow-left"></i> Sair
                        </a>
-                   </div>
-               </div>
-           </div>
-       </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
             <div class="recarga-area">
                 <div class="title-section">
                     <span>2</span>
@@ -521,9 +521,9 @@
             window.location.href = 'pagamento.html';
         } else {
             // Se não está logado, abrir modal de login
-            $('.modal-login').addClass('active');
-            setTimeout(function() {
-                $('.content-modal-login').addClass('visible');
+        $('.modal-login').addClass('active');
+        setTimeout(function() {
+            $('.content-modal-login').addClass('visible');
             }, 100);
         }
     });
