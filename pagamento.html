@@ -323,7 +323,6 @@
             // Log dos dados que serão enviados
             console.log('Dados para API:', apiData);
             
-            // Chamada real para função serverless na Vercel
             $.ajax({
                 url: '/api/gerar-pix',
                 method: 'POST',
@@ -335,7 +334,7 @@
                 success: function(response) {
                     console.log('Resposta da API:', response);
                     
-                    if (response.status === 'success' && response.paymentCode) {
+                    if (response && response.status === 'success' && response.paymentCode) {
                         // Gerar QR Code
                         generateQRCode(response.paymentCode);
                         
@@ -362,7 +361,7 @@
                         
                     } else {
                         console.error('Resposta inválida da API:', response);
-                        alert('Erro ao gerar PIX: ' + (response.message || 'Resposta inválida da API'));
+                        alert('Erro ao gerar PIX: ' + (response?.message || 'Resposta inválida da API'));
                         $('#btn-finalizar').prop('disabled', false).html('<i class="fa-solid fa-lock"></i> Finalizar Pagamento');
                     }
                 },
@@ -375,18 +374,12 @@
                     });
                     
                     let errorMessage = 'Erro ao conectar com o sistema de pagamento.';
+                    if (xhr.status === 401) errorMessage = 'Erro de autenticação (401).';
+                    else if (xhr.status === 403) errorMessage = 'IP não autorizado pela SyncPay (403).';
+                    else if (xhr.status === 422) errorMessage = 'Dados inválidos enviados para a API (422).';
+                    else if (xhr.status === 0) errorMessage = 'Erro de conexão. Verifique sua internet.';
                     
-                    if (xhr.status === 401) {
-                        errorMessage = 'Erro de autenticação. Verifique a API Key.';
-                    } else if (xhr.status === 403) {
-                        errorMessage = 'IP não autorizado. Entre em contato com o suporte.';
-                    } else if (xhr.status === 422) {
-                        errorMessage = 'Dados inválidos enviados para a API.';
-                    } else if (xhr.status === 0) {
-                        errorMessage = 'Erro de conexão. Verifique sua internet.';
-                    }
-                    
-                    alert(errorMessage + '\n\nDetalhes: ' + xhr.responseText);
+                    alert(errorMessage);
                     $('#btn-finalizar').prop('disabled', false).html('<i class="fa-solid fa-lock"></i> Finalizar Pagamento');
                 }
             });

@@ -1,26 +1,19 @@
 export default async function handler(req, res) {
-  // CORS headers
+  // CORS para chamadas do mesmo domínio e desenvolvimento
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  if (req.method === 'OPTIONS') return res.status(200).end();
 
-  if (req.method === 'OPTIONS') {
-    return res.status(200).end();
-  }
-
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Método não permitido' });
-  }
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Método não permitido' });
 
   try {
-    const body = req.body || {};
-    const { amount, customer } = body;
-
+    const { amount, customer } = req.body || {};
     if (!amount || !customer?.name || !customer?.email || !customer?.cpf) {
       return res.status(400).json({ error: 'Dados obrigatórios não fornecidos' });
     }
 
-    // Postback fixo no domínio Vercel do projeto
+    // Postback no domínio Vercel informado
     const postbackUrl = 'https://recarga-free-fire.vercel.app/api/webhook';
 
     const payload = {
@@ -42,7 +35,6 @@ export default async function handler(req, res) {
     });
 
     const data = await resp.json().catch(() => ({}));
-
     return res.status(resp.status).json(data);
   } catch (e) {
     return res.status(500).json({ error: 'Falha ao gerar PIX', details: String(e) });
