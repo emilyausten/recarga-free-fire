@@ -1,0 +1,334 @@
+Uri: https://cdn.utmify.com.br/scripts/utms/latest.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\scripts\utms\latest-2.js
+Content Type: text/javascript
+
+Uri: https://recarga-jogos.onl/public/css/all.min.css
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\all.min-2.css
+Content Type: text/css
+
+Uri: https://recarga-jogos.onl/public/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\bootstrap.min-2.css
+Content Type: text/css
+
+Uri: https://recarga-jogos.onl/public/css/style.css?v=1.0.4
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\style-2.css
+Content Type: text/css
+
+Uri: https://recarga-jogos.onl/public/css/swiper-bundle.min.css
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\swiper-bundle.min-2.css
+Content Type: text/css
+
+Uri: https://recarga-jogos.onl/public/images/ass_mensal.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\ass_mensal-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/ass_semanal.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\ass_semanal-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/avatar.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\avatar-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/banner.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\banner-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/calwhite.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\calwhite-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/check.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\check-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/cover.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\cover-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/cover_mobile.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\cover_mobile-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/credit_icon_large.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\credit_icon_large-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/cubomagic.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\cubomagic-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/evolucao_3.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\evolucao_3-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/evolucao_30.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\evolucao_30-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/evolucao_7.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\evolucao_7-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/favicon.ico
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\favicon-2.ico
+Content Type: image/x-icon
+
+Uri: https://recarga-jogos.onl/public/images/FF-f997537d.jpg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\FF-f997537d-2.jpg
+Content Type: image/jpeg
+
+Uri: https://recarga-jogos.onl/public/images/ic-fb-485c92b0.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\ic-fb-485c92b0-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/ic-google-d2ceaa95.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\ic-google-d2ceaa95-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/ic-twitter-92527e61.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\ic-twitter-92527e61-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/ic-vk-abadf989.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\ic-vk-abadf989-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/icon.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\icon-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/icon_b.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\icon_b-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/icon_c.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\icon_c-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/logo.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\logo-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/logo_mobile.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\logo_mobile-1.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/pix_boa_mb.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\pix_boa_mb-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/semanal_econo.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\semanal_econo-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/status_premium_banner.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\status_premium_banner-1.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\bootstrap.min-2.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/public/js/functions.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\functions-2.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/public/js/jquery.mask.min.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\jquery.mask.min-2.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/public/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\jquery.min-2.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/public/js/swiper-bundle.min.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\swiper-bundle.min-2.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/recarga
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\recarga-1.html
+Content Type: text/html
+
+etwork=g&gad_source=1&gad_campaignid=22880304413&gbraid=0AAAABAtIvrTFvdMy_U6rS7LBof6E-sZPY&gclid=CjwKCAjwwNbEBhBpEiwAFYLtGCaeurg2eI25aoRKQttY5nxhvewBkCiQEtmf3HseciMSdbAm6Ug2RhoCuzYQAvD_BwE
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\recarga.html
+Content Type: text/html
+
+ Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-Regular-e920e6b0.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-Regular-e920e6b0.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-RegularItalic-77f052dc.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-RegularItalic-77f052dc.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-RegularItalic-ccc6ad34.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-RegularItalic-ccc6ad34.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-SemiBold-695870d1.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-SemiBold-695870d1.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-SemiBold-bd9cc6de.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-SemiBold-bd9cc6de.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-SemiBoldItalic-5e65c493.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-SemiBoldItalic-5e65c493.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-SemiBoldItalic-f08b947a.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-SemiBoldItalic-f08b947a.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-Thin-d4c2bfc3.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-Thin-d4c2bfc3.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-Thin-e87b67ad.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-Thin-e87b67ad.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-ThinItalic-31ba4bb1.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-ThinItalic-31ba4bb1.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/css/fontes/Metropolis-ThinItalic-f0ba6899.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\fontes\Metropolis-ThinItalic-f0ba6899.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/css/style.css?v=1.0.4
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\style.css
+Content Type: text/css
+
+Uri: https://recarga-jogos.onl/public/css/swiper-bundle.min.css
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\css\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://recarga-jogos.onl/public/images/bg_number.svg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\bg_number.svg
+Content Type: image/svg+xml
+
+Uri: https://recarga-jogos.onl/public/images/diamond.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\diamond.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/favicon.ico
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://recarga-jogos.onl/public/images/FF-06d91604.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\FF-06d91604.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/FF-f997537d.jpg
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\FF-f997537d.jpg
+Content Type: image/jpeg
+
+Uri: https://recarga-jogos.onl/public/images/freefire-freeitem-bg-light-3457641a.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\freefire-freeitem-bg-light-3457641a.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/freefire.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\freefire.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/images/pattern-game-selection-59889447.png
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\images\pattern-game-selection-59889447.png
+Content Type: image/png
+
+Uri: https://recarga-jogos.onl/public/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/public/js/functions.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\functions.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/public/js/jquery.mask.min.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\jquery.mask.min.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/public/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/public/js/swiper-bundle.min.js
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\js\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-brands-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-brands-400.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-brands-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-duotone-900.ttf
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-duotone-900.ttf
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-duotone-900.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-duotone-900.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-duotone-900.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-duotone-900.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-light-300.ttf
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-light-300.ttf
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-light-300.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-light-300.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-light-300.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-light-300.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-regular-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-regular-400.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-regular-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-solid-900.ttf
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-solid-900.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-solid-900.woff2
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-thin-100.ttf
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-thin-100.ttf
+Content Type: application/octet-stream
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-thin-100.woff
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-thin-100.woff
+Content Type: application/font-woff
+
+Uri: https://recarga-jogos.onl/public/webfonts/fa-thin-100.woff2
+File Name: C:\Downloaded Web Sites\recarga-jogos.onl\public\webfonts\fa-thin-100.woff2
+Content Type: application/octet-stream
+

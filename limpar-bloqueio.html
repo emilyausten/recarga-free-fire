@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpar Bloqueios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .btn {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        .status {
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔧 Limpar Bloqueios do Sistema</h1>
+    
+    <div id="status" class="status info">
+        Clique no botão abaixo para limpar todos os bloqueios e dados salvos.
+    </div>
+    
+    <button class="btn" onclick="limparDados()">🧹 Limpar Todos os Dados</button>
+    <button class="btn" onclick="verificarDados()">👁️ Verificar Dados Atuais</button>
+    <button class="btn" onclick="voltar()">🏠 Voltar ao Sistema</button>
+    
+    <div id="resultado"></div>
+
+    <script>
+        function limparDados() {
+            // Limpar todos os dados relacionados ao sistema
+            localStorage.removeItem('loginAttempts');
+            localStorage.removeItem('isBlocked');
+            localStorage.removeItem('loggedUserId');
+            localStorage.removeItem('player');
+            localStorage.removeItem('cart');
+            
+            document.getElementById('status').className = 'status success';
+            document.getElementById('status').innerHTML = '✅ Todos os dados foram limpos com sucesso!';
+            
+            verificarDados();
+        }
+        
+        function verificarDados() {
+            const dados = {
+                'loginAttempts': localStorage.getItem('loginAttempts'),
+                'isBlocked': localStorage.getItem('isBlocked'),
+                'loggedUserId': localStorage.getItem('loggedUserId'),
+                'player': localStorage.getItem('player'),
+                'cart': localStorage.getItem('cart')
+            };
+            
+            let html = '<h3>📊 Dados Atuais no localStorage:</h3>';
+            html += '<ul style="text-align: left; max-width: 400px; margin: 0 auto;">';
+            
+            for (let [key, value] of Object.entries(dados)) {
+                html += `<li><strong>${key}:</strong> ${value || 'null'}</li>`;
+            }
+            
+            html += '</ul>';
+            
+            document.getElementById('resultado').innerHTML = html;
+        }
+        
+        function voltar() {
+            window.location.href = 'index.htm';
+        }
+        
+        // Verificar dados ao carregar a página
+        window.onload = verificarDados;
+    </script>
+</body>
+</html>
+
